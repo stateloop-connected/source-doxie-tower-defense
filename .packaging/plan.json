@@ -1,0 +1,43 @@
+{
+  "build_script": "tsc --noEmit && vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Pixelify Sans",
+        "source": "ofl/pixelifysans/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 3,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "2fe1e8c6b137fb13041a7cfca6fdcd8a910ea4dc",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/ac450cefa45b05e9.css",
+        "sha256": "92bbe30555afe7e3d53f473300d4e37d6a8c2d45cd1a552b1c2799677b017bce",
+        "url": "https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;600;700&display=swap"
+      }
+    ],
+    "total_font_bytes": 25288,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "xmichsenx/doxie-tower-defense",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/ac450cefa45b05e9.css",
+    ".packaging/google-fonts/files/1d207dbcfb2abd9e9cd6.woff2",
+    ".packaging/google-fonts/files/79551dc1202e43eee6ef.woff2",
+    ".packaging/google-fonts/files/89b4e03c45e92893ae36.woff2",
+    ".packaging/google-fonts/licenses/Pixelify-Sans-OFL-1.1.txt",
+    "index.html"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "5cb64b23404d425cd5450a858687eebecfa7715b"
+}
